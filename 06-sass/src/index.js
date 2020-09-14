@@ -1,3 +1,4 @@
 import sayHello from './greetings.js'
-// var sayHello = require('./greetings.js');
+import lib from './lib.scss';
+
 alert(sayHello('Max'))

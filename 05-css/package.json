@@ -5,14 +5,15 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode=development",
-    "build": "webpack",
+    "build": "webpack --mode=production",
     "start": "webpack-dev-server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "path": "^0.12.7",
+    "css-loader": "^4.3.0",
+    "style-loader": "^1.2.1",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"

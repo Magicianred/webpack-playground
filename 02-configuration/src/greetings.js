@@ -1,5 +1,6 @@
 export default (name) => {
-    return 'Hello ' + name
+    const hello = 'Hello '
+    return hello + name
 }
 // const sayHello = (name) => {
 //     return 'Hello ' + name

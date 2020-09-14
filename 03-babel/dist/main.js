@@ -93,19 +93,15 @@
 __webpack_require__.r(__webpack_exports__);
 
 // CONCATENATED MODULE: ./src/greetings.js
-/* harmony default export */ var greetings = ((name) => {
-    const hello = 'Hello '
-    return hello + name
+/* harmony default export */ var greetings = (function (name) {
+  console.log('geetings arrow');
+  var hello = 'Hello ';
+  return hello + name;
 });
-// const sayHello = (name) => {
-//     return 'Hello ' + name
-// }
-// module.exports = sayHello;
-
 // CONCATENATED MODULE: ./src/index.js
+ // var sayHello = require('./greetings.js');
 
-// var sayHello = require('./greetings.js');
-alert(greetings('Max'))
+alert(greetings('Max'));
 
 /***/ })
 /******/ ]);
