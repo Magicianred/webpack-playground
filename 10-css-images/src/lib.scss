@@ -1,5 +1,11 @@
 
 body {
-  background-image: url('https://images6.alphacoders.com/988/988362.jpg');
+  background-image: url('background.jpg');
   background-size: cover;
+}
+h1 {
+  position: absolute;
+  background-image: url('image.jpg');
+  top:33%;
+  left:33%;
 }

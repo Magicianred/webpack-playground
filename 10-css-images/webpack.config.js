@@ -25,9 +25,11 @@ module.exports = {
                     {
                         loader: 'url-loader',
                         options: {
-                            limit: 8192,
+                            limit: 16000,
+                            name: '[name].[hash:7].[ext]'
                         },
                     },
+                    { loader: 'image-webpack-loader' }
                 ],
             }
         ]
